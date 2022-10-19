@@ -1,0 +1,7 @@
+HTTP/1.1 200 OK
+Cache-Control: max-age=10
+S: uuid:ijklmnop-7dec-11d0-a765-00a0c91e6bf6
+Location: http://haha.com
+Cache-Control: no-cache="Ext",max-age=5000ST
+
+

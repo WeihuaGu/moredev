@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "get-port": "^6.1.2",
+    "internal-ip": "^6.2.0",
+    "node-ssdp": "^4.0.1",
+    "uuid": "^9.0.0"
+  },
+  "type": "module",
+  "exports": "./index.js"
+}
