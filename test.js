@@ -11,7 +11,7 @@ import {require} from './require.js'
 
     // Or get a list of all services on the network
 
-    client.search('urn:schemas-upnp-org:service:candodownload:1')
+    client.search('urn:schemas-upnp-org:service:candotask:1')
     if(!flagresponse){
     	setTimeout(function() {},1000)
     }

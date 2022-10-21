@@ -1,13 +1,13 @@
     import {require} from './require.js' 
     import {app} from './app.js'    
     var Server = require('node-ssdp').Server
-    const { v4: uuidv4 } = require('uuid');
+    import  { v4 as uuidv4 } from 'uuid'
     
     var server = new Server({
     	udn: uuidv4(),
 	location: app.get('serverurl')
     })
-    server.addUSN('urn:schemas-upnp-org:service:candodownload:1');
+    server.addUSN('urn:schemas-upnp-org:service:candotask:1');
 
     server.on('advertise-alive', function (headers) {
     });
